@@ -27,23 +27,21 @@ input(type='text') <==> string
 input(type='tel') <==> string
 input(type='url') <==> string
 input(type='email') <==> string
-input(type='password') <==> null
+input(type='password') <==> string
 input(type='date') <==> string
 input(type='time') <==> string
-input(type='number')  ==> number
-input(type='number') <==  string
-input(type='range')  ==> number
-input(type='range') <==  string
+input(type='number') <==>  string
+input(type='range') <==>  string
 input(type='color') <==> string
 input(type='checkbox') <==> boolean
 input(type='radio') <==> string
 input(type='radio') <==> string
 input(type='radio') <==> string
-input(type='file')  ==> undefined
-input(type='submit')  ==> undefined
+input(type='submit')  <==> string
+input(type='reset')  <==> string
+input(type='button')  <==> string 
 input(type='image')  ==> undefined
-input(type='reset')  ==> undefined
-input(type='button')  ==> undefined
+input(type='file')  ==> undefined
 
 
 ```
