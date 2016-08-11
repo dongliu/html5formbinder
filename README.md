@@ -33,7 +33,7 @@ input(type='time') <==> string
 input(type='number') <==>  string
 input(type='range') <==>  string
 input(type='color') <==> string
-input(type='checkbox') <==> boolean
+input(type='checkbox') <==> boolean | string
 input(type='radio') <==> string
 input(type='radio') <==> string
 input(type='radio') <==> string
