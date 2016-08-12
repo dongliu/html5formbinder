@@ -34,12 +34,10 @@ input(type='number') <==>  string
 input(type='range') <==>  string
 input(type='color') <==> string
 input(type='checkbox') <==> boolean | string
-input(type='radio') <==> string
-input(type='radio') <==> string
-input(type='radio') <==> string
-input(type='submit')  <==> string
-input(type='reset')  <==> string
-input(type='button')  <==> string 
+input(type='radio') <==> boolean | string
+input(type='submit')  ==> string
+input(type='reset')  ==> undefined
+input(type='button') ==> undefined 
 input(type='image')  ==> undefined
 input(type='file')  ==> undefined
 
