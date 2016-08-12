@@ -4,7 +4,7 @@ When a form is submitted via AJAX, we need to serialize the form data, and send 
 
 ## Specs
 
-The HTML5 form is defined in [the 4.10 section](http://www.w3.org/TR/html5/forms.html) of the W3C specification. This binder covers three types of HTML5 form elements: `input`, `textarea`, and `select`. The binder converts the data input by a user in an element into a simple type or an array of simple type in JSON.
+The HTML5 form is defined in [the 4.10 section](http://www.w3.org/TR/html5/forms.html) of the W3C specification. This binder covers HTML5 [submittable control elements](https://www.w3.org/TR/html5/forms.html#category-submit) including `input`, `textarea`, `select`, and `button`. The binder converts the data input by a user in an element into a simple type or an array of simple type in JSON.
 
 ### textarea
 
